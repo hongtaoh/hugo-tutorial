@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://navdshar.com/2016/12/30/a-plain-markdown-post/</loc>
-    <lastmod>2016-12-30T21:49:57-07:00</lastmod>
+    <loc>https://navdshar.com/post/</loc>
+    <lastmod>2020-06-05T15:04:03-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://navdshar.com/post/</loc>
+    <loc>https://navdshar.com/2020/06/05/what-you-can-do-with-hugo-and-markdown/</loc>
+    <lastmod>2020-06-05T15:04:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://navdshar.com/2016/12/30/a-plain-markdown-post/</loc>
     <lastmod>2016-12-30T21:49:57-07:00</lastmod>
   </url>
   

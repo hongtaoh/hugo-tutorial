@@ -6,10 +6,23 @@
     <description>Recent content in Blog on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Dec 2016 21:49:57 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2020 15:04:03 -0400</lastBuildDate>
     
 	<atom:link href="https://navdshar.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What You Can Do with Hugo and Markdown</title>
+      <link>https://navdshar.com/2020/06/05/what-you-can-do-with-hugo-and-markdown/</link>
+      <pubDate>Fri, 05 Jun 2020 15:04:03 -0400</pubDate>
+      
+      <guid>https://navdshar.com/2020/06/05/what-you-can-do-with-hugo-and-markdown/</guid>
+      <description>You are encouraged to read carefully this Markdown Cheatsheet to get a deeper understand of how to write in Markdown.
+Most of the codes in that Cheatsheet will work with Markdown in Hugo:
+Headings You can have six levels of section headings:
+H1 H2 H3 H4 H5 H6 Blockquotes  What I cannot create, I do not understand. Note that you can use Markdown syntax within a blockquote.
+ Lists You can create a list, both numbered or not:</description>
+    </item>
     
     <item>
       <title>A Plain Markdown Post</title>
