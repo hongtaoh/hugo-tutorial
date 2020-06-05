@@ -9,6 +9,6 @@ draft: yes
 ---
 
 ```{r echo = FALSE}
-knitr::include_url('https://hugo-tutorial.netlify.app/webpage/themediaschool.htm')
+knitr::include_url('https://hugo-tutorial.netlify.app/webpage/hugo.htm')
 ```
 

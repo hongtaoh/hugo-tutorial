@@ -71,6 +71,8 @@ You can also show your Instagram here:
 
 {{< instagram BmuPJk2jX5- >}}
 
+You can also embed an external webpage. Click [here]() for an example.
+
 
 
 
