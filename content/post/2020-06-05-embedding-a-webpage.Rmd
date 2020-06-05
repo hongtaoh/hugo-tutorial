@@ -9,6 +9,6 @@ draft: yes
 ---
 
 ```{r echo = FALSE}
-knitr::include_url('/webpage/Covid19.htm')
+knitr::include_url('https://hugo-tutorial.netlify.app/webpage/covid19')
 ```
 
