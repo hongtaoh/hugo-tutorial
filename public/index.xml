@@ -25,6 +25,15 @@ H1 H2 H3 H4 H5 H6 Blockquotes  What I cannot create, I do not understand. Note t
     </item>
     
     <item>
+      <title>Embedding an external webpage in Hugo</title>
+      <link>https://navdshar.com/2020/06/05/embedding-a-webpage/</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://navdshar.com/2020/06/05/embedding-a-webpage/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
       <title>A Plain Markdown Post</title>
       <link>https://navdshar.com/2016/12/30/a-plain-markdown-post/</link>
       <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
