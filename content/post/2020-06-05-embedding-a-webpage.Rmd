@@ -1,5 +1,5 @@
 ---
-title: 'embedding a webpage '
+title: 'Embedding an external webpage in Hugo'
 author: ''
 date: '2020-06-05'
 slug: embedding-a-webpage
@@ -9,6 +9,6 @@ draft: yes
 ---
 
 ```{r echo = FALSE}
-knitr::include_url('https://hugo-tutorial.netlify.app/webpage/covid19')
+knitr::include_url('https://hugo-tutorial.netlify.app/webpage/themediaschool.htm')
 ```
 
