@@ -1,0 +1,111 @@
+body {
+  width: 67.5%;
+  margin-left: 150px; 
+  margin-right: auto;
+  max-width: 1400px;
+  min-width: 960px;
+}
+h1 {
+  font-weight: 400;
+  margin-top: 1.2rem;
+  font-size: 3.2rem;
+}
+h2 {
+  font-style: italic;
+  margin-bottom: 1.4rem;
+  font-size: 2.2rem;
+}
+a.anchor {
+  display: block;
+  position: relative;
+  visibility: hidden;
+}
+header{
+  margin-top:30px;
+  margin-bottom: 10px;
+}
+footer{
+  margin-top: 40px;
+  font-family: sans-serif;
+  font-size: 1em;
+  margin-top: 100px;
+  padding-bottom: 500px;
+}
+#sidebar {
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  left:0;
+  overflow-x: hidden;
+  background-image: url("iu_tab_left-tail_web.png");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: -220px 30px;
+}
+
+#sidebar a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  padding-right: 73px;
+  text-align: right;
+}
+
+#wrapper {
+}
+#CFR-viz {
+}
+#chart {
+}
+#trend-viz {
+}
+
+.viewof {
+  margin-bottom: 20px;
+}
+
+#viewof-radius_type {
+  width: 15em;
+  float: left;
+}
+#viewof-curr_date {
+  margin-right: 3em;
+}
+#chart {
+  margin-top: 25px;
+}
+#swatch {
+  margin-left: 5em;
+}
+.sidenote {
+  float: right;
+  clear: right;
+  margin-right: -32%;
+  width: 30%;
+  min-width: 300px;
+  margin-top: 1rem;
+  position: relative;
+  font-size: 1.2em;
+}
+#explanation {
+}
+
+/* This disables text selection for all SVG text entities */
+svg text {
+  cursor: default;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+svg text::selection {
+  background: none;
+}
+
+/* This disables text interaction for the case fatality rate chart */
+#chart svg text{
+  pointer-events: none;
+}
+

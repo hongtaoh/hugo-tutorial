@@ -1,0 +1,14 @@
+---
+title: 'embedding a webpage '
+author: ''
+date: '2020-06-05'
+slug: embedding-a-webpage
+categories: []
+tags: []
+draft: yes
+---
+
+```{r echo = FALSE}
+knitr::include_url('/webpage/Covid19.htm')
+```
+
