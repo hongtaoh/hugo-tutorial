@@ -4,7 +4,7 @@ date: 2020-06-05T15:04:03-04:00
 draft: false
 ---
 
-You are encouraged to read carefully this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to get a deeper understand of how to write in Markdown. 
+You are encouraged to read carefully this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to get a deeper understanding of how to write in Markdown. 
 
 Most of the codes in that Cheatsheet will work with Markdown in Hugo:
 
