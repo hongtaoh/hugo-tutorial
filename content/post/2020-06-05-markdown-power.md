@@ -56,7 +56,7 @@ For example, you can use the following codes to add figures:
 
 {{<figure src="https://www.vetopia.com.hk/media/wysiwyg/Cute_Puppy.PNG" title="Title here" caption="Caption here" width="450">}}
 
-Of course you can add figures using the codes in the above cheatsheet, but you cannot add title and caption, and it's difficult to change width and height of the figure. You can do all of these using Hugo built-in shortcodes. 
+Of course you can add figures using the codes in the above cheatsheet, but you cannot add title and caption, and it's difficult to change width and height of the figure. You can do all of these using Hugo's [built-in shortcodes for figures](https://gohugo.io/content-management/shortcodes/#figure). 
 
 You can also embed Vimeo and YouTube videos:
 
