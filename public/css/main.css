@@ -29,6 +29,13 @@ code {
   background-color: rgba(0, 0, 0, 0.02);
 }
 
+img {
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: auto auto 4px;
+}
+
 .wrapper {
   overflow: hidden;
   position: relative;

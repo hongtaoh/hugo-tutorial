@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://navdshar.com/tutorial/</loc>
+    <lastmod>2020-08-10T16:30:32-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://navdshar.com/</loc>
+    <lastmod>2020-08-10T16:30:32-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://navdshar.com/post/</loc>
     <lastmod>2020-06-05T15:04:03-04:00</lastmod>
   </url>
@@ -24,11 +34,6 @@
   
   <url>
     <loc>https://navdshar.com/about/</loc>
-    <lastmod>2016-05-05T21:48:51-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://navdshar.com/</loc>
     <lastmod>2016-05-05T21:48:51-07:00</lastmod>
   </url>
   

@@ -2,6 +2,7 @@
 title: "What You Can Do with Hugo and Markdown"
 date: 2020-06-05T15:04:03-04:00
 draft: false
+author: Hongtao Hao
 ---
 
 You are encouraged to read carefully this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to get a deeper understanding of how to write in Markdown. 

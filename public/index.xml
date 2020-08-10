@@ -6,10 +6,21 @@
     <description>Recent content in Home on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 May 2016 21:48:51 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2020 16:30:32 -0400</lastBuildDate>
     
 	<atom:link href="https://navdshar.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Build A Website Using Hugo without Programming Skills</title>
+      <link>https://navdshar.com/tutorial/</link>
+      <pubDate>Mon, 10 Aug 2020 16:30:32 -0400</pubDate>
+      
+      <guid>https://navdshar.com/tutorial/</guid>
+      <description>By Hongtao Hao, originally posted on his blog. You can find the GitHub Repo of this tutorial website at https://github.com/hongtaoh/hugo-tutorial.
+ A friend asked me whether I can help him create his own personal website. I have long been wanting to write a simple tutorial on this and now I think it&amp;rsquo;s time to do that.
+In this age of informaiton, it&amp;rsquo;s important to have your online presence. It not only helps others to know you more quickly; it also helps you to express yourself to, and share your experiences and knowledge with, the outside world.</description>
+    </item>
     
     <item>
       <title>What You Can Do with Hugo and Markdown</title>
