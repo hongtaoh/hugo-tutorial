@@ -11,17 +11,17 @@ A friend asked me whether I can help him create his own personal website. I have
 
 In this age of informaiton, it's important to have your online presence. It not only helps others to know you more quickly; it also helps you to express yourself to, and share your experiences and knowledge with, the outside world. 
 
-Note: All instructions below assume that you are using a Mac. If you are a Windows or Linux user, you can still read this post but I can't guarantee it will help you. 
+Note: All instructions below assume that you are using a Mac. If you are a Windows or Linux user, you can still read this post but I can't guarantee the steps are exactly the same. 
 
 # WordPress or Hugo
 
 Before getting started, a key question you should have is which tool you want to use to build your website. 
 
-The most popular website building tool is definitely WordPress, which is said to contribute to 80% of the web today[^1]. To make your decision on which tool to choose, please read these two articles comparing Wordpress and Hugo, one by [Rebecca Markowitz](https://www.strattic.com/jekyll-hugo-wordpress-pros-cons-static-site-generators/), and the other by [Regis](https://regisphilibert.com/blog/2019/01/from-wordpress-to-hugo-a-mindset-transition/). You can also read a comparison between the two from [a WordPress developer's perspctive](https://dev.to/tylerlwsmith/my-impressions-of-hugo-as-a-wordpress-developer-1hho).
+The most popular website building tool is definitely WordPress, which is said to contribute to 80% of the web today[^1]. To make your decision on website building tools, I recommend reading these two articles comparing Wordpress and Hugo, one by [Rebecca Markowitz](https://www.strattic.com/jekyll-hugo-wordpress-pros-cons-static-site-generators/), and the other by [Regis](https://regisphilibert.com/blog/2019/01/from-wordpress-to-hugo-a-mindset-transition/). You can also read a comparison between the two from [a WordPress developer's perspctive](https://dev.to/tylerlwsmith/my-impressions-of-hugo-as-a-wordpress-developer-1hho).
 
-The benefits of using Hugo are obvious: It's super fast; you'll have control over the whole website generating process; more freedom to create your own style (which means more time as well).
+The benefits of using Hugo are obvious: It's super fast; you'll have control over the whole website generating process; more freedom to create your own style (which means more time as well). Hugo is a static site generator. It's my favorite but definitely not the only option. There are [many static](https://www.staticgen.com) site generators out there. 
 
-However, if you choose to use Hugo, be prepared to spend some time learning how to code[^2].
+If you choose to use Hugo over WordPress, be prepared to spend some, if not a lot of, time learning how to code[^2].
 
 You can also check out themes by [Hugo](https://themes.gohugo.io/) and [WordPress](https://wordpress.com/themes) to make a decision. 
 
@@ -32,7 +32,7 @@ If you choose WordPress, you can stop here, as this tutorial will be about using
 
 In Hugo, you'll need Markdown to write your posts. Whenever you forget how to use Markdown, please refer to [this cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-Hugo provides a lot of themes. As the popularity of Hugo increases, there are more and more themes coming up. My suggestion for beginners is don't spend much time in the begining on choosing themes. Just get started with the simplest theme and as you become familiar with Hugo, you can try complex ones or even create your own. This is for two reasons: 
+Hugo provides a lot of themes. As the popularity of Hugo increases, there are more and more themes coming up. My suggestion for beginners is don't spend much time in the begining on choosing themes. Just get started with the simplest theme and as you become more familiar with Hugo, you can try complex ones or even create your own. This is for two reasons: 
 
 1. If you have little to no programming skills, it's very difficult for you to customize complex themes. Even though there are many themes, chances are that you won't be 100% satisfied with any of them, so you'll want to make a lot of changes. The more complexity, the more difficulty to customize it. This leads to the second reason. 
 
@@ -76,9 +76,9 @@ Then go to Terminal again, copy and past the following codes, and press the Ente
 ```bash
 git clone https://github.com/yihui/hugo-lithium
 ```
-You'll see a folder named "hugo-lithium" on your Desktop. What you'll need to later seems to be a little complex, but I'll explain in deatil:
+You'll see a folder named "hugo-lithium" on your Desktop. What you'll need to do later seems to be a little complex, but I'll explain in deatil:
 
-Open the folder of "lithium", under the directory of "themes", create a new folder called "hugo-lithium". Then, go to the "hugo-lithium" folder on your Desktop (not the one you just created under the "themes" folder). Drag all the contents in this "hugo-lithium" folder on your Desktop into the "hugo-lithium" folder you just created under the "themes" folder. 
+Open the folder of `lithium`, under the directory of `themes`, create a new folder called `hugo-lithium`. Then, go to the `hugo-lithium` folder on your Desktop (not the one you just created under the `themes` folder). Drag all the contents in this "hugo-lithium" folder on your Desktop into the "hugo-lithium" folder you just created under the "themes" folder. 
 
 Go to the folder "lithium" on your Desktop, open themes -> hugo-lithium -> exampleSite, and then copy the three files/folders in `exampleSite`, namely `config.toml`, `content`, and `static`. Then go to the root of your `lithium` folder[^4] and paste these three files. What I mean by **the root**: the first level of the lithium folder, namely what you'll see when you first open the folder, not going deeper. 
 
