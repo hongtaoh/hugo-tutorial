@@ -115,7 +115,7 @@
 <p>First of all, you need to install Hugo. To do that, please read <a href="https://hongtaoh.com/en/2020/01/29/how-to-install-and-upgrade-hugo-on-mac/">my earlier post</a> about Hugo installation.</p>
 <p>If you don&rsquo;t know how to open <code>Terminal</code> on your Mac: on the upper-right corner of the screen, you&rsquo;ll see a search icon. Click it and then type <code>Terminal</code>, then press Enter key on your keyboard.</p>
 <h2 id="cloning-the-theme">Cloning the theme</h2>
-<p>After opening your Terminal, first check whether you have correctly installed Hugo. All the following codes, if not specified otherwises, should run in your Terminal.</p>
+<p>After opening your <code>Terminal</code>, first check whether you have correctly installed Hugo. All the following codes, if not specified otherwises, should run in your <code>Terminal</code>.</p>
 <p>Input the following code and press Enter key:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo version
 </code></pre></div><p>If it shows something like <code>Hugo Static Site Generator v0.70.0-7F47B99E ...</code>, then you should be fine.</p>
@@ -123,11 +123,11 @@
 <p>Then copy and past the following codes, and press the Enter key<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo new site lithium <span style="color:#75715e"># You can change lithium to any other name you like</span>
 </code></pre></div><p>You then should see the folder named <code>lithium</code> on your Desktop.</p>
-<p>Then go to Terminal again, copy and past the following codes, and press the Enter key:</p>
+<p>Then go to <code>Terminal</code> again, copy and past the following codes, and press the Enter key:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/yihui/hugo-lithium
-</code></pre></div><p>You&rsquo;ll see a folder named &ldquo;hugo-lithium&rdquo; on your Desktop. What you&rsquo;ll need to do later seems to be a little complex, but I&rsquo;ll explain in deatil:</p>
-<p>Open the folder of <code>lithium</code>, under the directory of <code>themes</code>, create a new folder called <code>hugo-lithium</code>. Then, go to the <code>hugo-lithium</code> folder on your Desktop (not the one you just created under the <code>themes</code> folder). Drag all the contents in this &ldquo;hugo-lithium&rdquo; folder on your Desktop into the &ldquo;hugo-lithium&rdquo; folder you just created under the &ldquo;themes&rdquo; folder.</p>
-<p>Go to the folder &ldquo;lithium&rdquo; on your Desktop, open themes -&gt; hugo-lithium -&gt; exampleSite, and then copy the three files/folders in <code>exampleSite</code>, namely <code>config.toml</code>, <code>content</code>, and <code>static</code>. Then go to the root of your <code>lithium</code> folder<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> and paste these three files. What I mean by <strong>the root</strong>: the first level of the lithium folder, namely what you&rsquo;ll see when you first open the folder, not going deeper.</p>
+</code></pre></div><p>You&rsquo;ll see a folder named <code>hugo-lithium</code> on your Desktop. What you&rsquo;ll need to do later seems to be a little complex, but I&rsquo;ll explain in deatil:</p>
+<p>Open the folder of <code>lithium</code>, under the directory of <code>themes</code>, create a new folder called <code>hugo-lithium</code>. Then, go to the <code>hugo-lithium</code> folder on your Desktop (not the one you just created under the <code>themes</code> folder). Drag all the contents in this <code>hugo-lithium</code> folder on your Desktop into the <code>hugo-lithium</code> folder you just created under the <code>themes</code> folder.</p>
+<p>Go to the folder <code>lithium</code> on your Desktop, open <code>themes -&gt; hugo-lithium -&gt; exampleSite</code>, and then copy the three files/folders in <code>exampleSite</code>, namely <code>config.toml</code>, <code>content</code>, and <code>static</code>. Then go to the root of your <code>lithium</code> folder<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> and paste these three files. What I mean by <strong>the root</strong>: the first level of the lithium folder, namely what you&rsquo;ll see when you first open the folder, not going deeper.</p>
 <p>Please note: If you paste these three folders at the root of your lithium folder, Mac will ask you whether you want to merge or replace files because the root already has folders/files with the same name. Replacing is better.</p>
 <p>However, you should be aware that <strong>this will eradicate</strong> all the content in your original folder. <strong>If you have important files in the original folders</strong>, you should never click <strong>Replace</strong>. In fact, if you have important data in your original folder, you&rsquo;d better generate a new site folder using <code>hugo new site ...</code> command, rather than working in the current folder.</p>
 <p>After this is done, open the <code>config.toml</code>. Change <code>baseurl = &quot;/&quot;</code> to <code>baseurl = &quot;https://yourdomain.com/&quot;</code>. Save the changes by pressing Ctrl+S on your keyboard.</p>
@@ -138,7 +138,7 @@
 Press Ctrl+C to stop
 </code></pre></div><p>If so, click <a href="http://localhost:1313/">http://localhost:1313/</a>, you should be able to see this simple website in your browser.</p>
 <p>If everything is going well, we will change the site for a little bit.</p>
-<p>Before we make changes, go to Terminal, and then press Ctrl+C to stop the Web Server.</p>
+<p>Before we make changes, go to <code>Terminal</code>, and then press Ctrl+C to stop the Web Server.</p>
 <h1 id="customizing-the-theme-a-little-bit">Customizing the theme a little bit</h1>
 <p>Go to the <code>config.toml</code> file in the root of <code>lithium</code> folder, You can find these:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[[<span style="color:#a6e22e">menu</span>.<span style="color:#a6e22e">main</span>]]
@@ -209,7 +209,7 @@ date: &#39;&#39;
 <p>If you want to make a lot of changes, or that you want to use a fancier, and more complex theme, I highly recommend you to read Yihui Xie&rsquo;s book: <a href="https://bookdown.org/yihui/blogdown/">blogdown: Creating Websites with R Markdown</a>. Although this book is about how to build website using the R pacakge of <code>blogdown</code>, you&rsquo;ll get a deeper understanding about Hugo by reading this book.</p>
 <p>In this book, you&rsquo;ll want to read in more detail the section of <a href="https://bookdown.org/yihui/blogdown/templates.html#how-to">2.5 Templates</a>, and <a href="https://bookdown.org/yihui/blogdown/custom-layouts.html">2.6 Custom layouts</a>.</p>
 <p>As I said, a deeper knowledge of Hugo, CSS, and HTML is beyond the scope of this simple tutorial.</p>
-<p>Now, I assume that you have your local website read (you are satisfied with what you see in the browser now).</p>
+<p>Now, I assume that you have your local website ready (you are satisfied with what you see in the browser now).</p>
 <p>Go to <code>Terminal</code>, press Ctrl+C to kill the web server. We&rsquo;ll learn how to put this site online.</p>
 <h1 id="github">GitHub</h1>
 <p>First of all, you need to create a GitHub account. When this is done, click &ldquo;new repository&rdquo;:</p>
@@ -231,7 +231,7 @@ date: &#39;&#39;
 </figure>
 
 <p>Later, you&rsquo;ll need to copy the url by clicking the button on the right.</p>
-<p>Now, if you have followed the tutorial, in your Termail, you are still in the directory of <code>lithium</code>. Just to be sure, please type the following code in Terminal to check the current directory:</p>
+<p>Now, if you have followed the tutorial, in your Termail, you are still in the directory of <code>lithium</code>. Just to be sure, please type the following code in <code>Terminal</code> to check the current directory:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pwd
 </code></pre></div><p>If it shows the current working directory is <code>lithium</code>, then you can move on with the following. If not, please google by yourself how to navigate to a specific folder. I won&rsquo;t go in detail here.</p>
 <p>Then copy and paste the following codes:</p>
@@ -321,7 +321,7 @@ git push -u origin master
 
 [<span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">next</span>.<span style="color:#a6e22e">environment</span>]
 <span style="color:#a6e22e">HUGO_ENABLEGITINFO</span> = <span style="color:#e6db74">&#34;true&#34;</span>
-</code></pre></div><p>Save the file, name it as <code>netlify.toml</code> and put it to the root of <code>lithium</code> folder. Then copy and paste the following codes in your Terminal:</p>
+</code></pre></div><p>Save the file, name it as <code>netlify.toml</code> and put it to the root of <code>lithium</code> folder. Then copy and paste the following codes in your <code>Terminal</code>:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add .
 git commit -m <span style="color:#e6db74">&#34;uploading netlify.toml&#34;</span>
 git push
@@ -347,7 +347,7 @@ git push
 <p>Using codes like this:</p>
 <pre><code>hugo new post/2020-06-05-another-markdown.md
 </code></pre><h1 id="keep-deploying">Keep Deploying</h1>
-<p>Every time you update you contents, you need to upload them. You&rsquo;ll need to copy and paste the following codes in Terminal every time:</p>
+<p>Every time you update you contents, you need to upload them. You&rsquo;ll need to copy and paste the following codes in <code>Terminal</code> every time:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rm -rf public <span style="color:#75715e"># delete the public folder</span>
 hugo <span style="color:#75715e"># rebuild the website</span>
 git add . <span style="color:#75715e"># prepare uploads</span>
@@ -384,7 +384,7 @@ git push
 <p>If you have used a different name than lithium, you should go to that folder on your Desktop. <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:5" role="doc-endnote">
-<p>When you type code by yourself, you should press the Enter key at the end of every line, since you can only type one line at time. When you copy and paste lines into Terminal, you should press Enter key at the end of the last line of code. I won&rsquo;t repeat &ldquo;press the Enter key&rdquo; in the following section, but you should bear in mind that you need to press it by yourself. <a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>When you type code by yourself, you should press the Enter key at the end of every line, since you can only type one line at time. When you copy and paste lines into <code>Terminal</code>, you should press Enter key at the end of the last line of code. I won&rsquo;t repeat &ldquo;press the Enter key&rdquo; in the following section, but you should bear in mind that you need to press it by yourself. <a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>

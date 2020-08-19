@@ -52,7 +52,7 @@ If you don't know how to open `Terminal` on your Mac: on the upper-right corner 
 
 ## Cloning the theme
 
-After opening your Terminal, first check whether you have correctly installed Hugo. All the following codes, if not specified otherwises, should run in your Terminal. 
+After opening your `Terminal`, first check whether you have correctly installed Hugo. All the following codes, if not specified otherwises, should run in your `Terminal`. 
 
 Input the following code and press Enter key:
 
@@ -71,16 +71,16 @@ hugo new site lithium # You can change lithium to any other name you like
 
 You then should see the folder named `lithium` on your Desktop.
 
-Then go to Terminal again, copy and past the following codes, and press the Enter key:
+Then go to `Terminal` again, copy and past the following codes, and press the Enter key:
 
 ```bash
 git clone https://github.com/yihui/hugo-lithium
 ```
-You'll see a folder named "hugo-lithium" on your Desktop. What you'll need to do later seems to be a little complex, but I'll explain in deatil:
+You'll see a folder named `hugo-lithium` on your Desktop. What you'll need to do later seems to be a little complex, but I'll explain in deatil:
 
-Open the folder of `lithium`, under the directory of `themes`, create a new folder called `hugo-lithium`. Then, go to the `hugo-lithium` folder on your Desktop (not the one you just created under the `themes` folder). Drag all the contents in this "hugo-lithium" folder on your Desktop into the "hugo-lithium" folder you just created under the "themes" folder. 
+Open the folder of `lithium`, under the directory of `themes`, create a new folder called `hugo-lithium`. Then, go to the `hugo-lithium` folder on your Desktop (not the one you just created under the `themes` folder). Drag all the contents in this `hugo-lithium` folder on your Desktop into the `hugo-lithium` folder you just created under the `themes` folder. 
 
-Go to the folder "lithium" on your Desktop, open themes -> hugo-lithium -> exampleSite, and then copy the three files/folders in `exampleSite`, namely `config.toml`, `content`, and `static`. Then go to the root of your `lithium` folder[^4] and paste these three files. What I mean by **the root**: the first level of the lithium folder, namely what you'll see when you first open the folder, not going deeper. 
+Go to the folder `lithium` on your Desktop, open `themes -> hugo-lithium -> exampleSite`, and then copy the three files/folders in `exampleSite`, namely `config.toml`, `content`, and `static`. Then go to the root of your `lithium` folder[^4] and paste these three files. What I mean by **the root**: the first level of the lithium folder, namely what you'll see when you first open the folder, not going deeper. 
 
 Please note: If you paste these three folders at the root of your lithium folder, Mac will ask you whether you want to merge or replace files because the root already has folders/files with the same name. Replacing is better. 
 
@@ -105,7 +105,7 @@ If so, click [http://localhost:1313/](http://localhost:1313/), you should be abl
 
 If everything is going well, we will change the site for a little bit. 
 
-Before we make changes, go to Terminal, and then press Ctrl+C to stop the Web Server. 
+Before we make changes, go to `Terminal`, and then press Ctrl+C to stop the Web Server. 
 
 # Customizing the theme a little bit
 
@@ -214,7 +214,7 @@ In this book, you'll want to read in more detail the section of [2.5 Templates](
 
 As I said, a deeper knowledge of Hugo, CSS, and HTML is beyond the scope of this simple tutorial. 
 
-Now, I assume that you have your local website read (you are satisfied with what you see in the browser now).
+Now, I assume that you have your local website ready (you are satisfied with what you see in the browser now).
 
 Go to `Terminal`, press Ctrl+C to kill the web server. We'll learn how to put this site online. 
 
@@ -235,7 +235,7 @@ You'll see this:
 
 Later, you'll need to copy the url by clicking the button on the right. 
 
-Now, if you have followed the tutorial, in your Termail, you are still in the directory of `lithium`. Just to be sure, please type the following code in Terminal to check the current directory:
+Now, if you have followed the tutorial, in your Termail, you are still in the directory of `lithium`. Just to be sure, please type the following code in `Terminal` to check the current directory:
 
 ```bash
 pwd
@@ -329,7 +329,7 @@ HUGO_VERSION = "0.70.0" #Change it to your own Hugo version
 HUGO_ENABLEGITINFO = "true"
 ```
 
-Save the file, name it as `netlify.toml` and put it to the root of `lithium` folder. Then copy and paste the following codes in your Terminal:
+Save the file, name it as `netlify.toml` and put it to the root of `lithium` folder. Then copy and paste the following codes in your `Terminal`:
 
 ```bash
 git add .
@@ -365,7 +365,7 @@ hugo new post/2020-06-05-another-markdown.md
 
 # Keep Deploying
 
-Every time you update you contents, you need to upload them. You'll need to copy and paste the following codes in Terminal every time:
+Every time you update you contents, you need to upload them. You'll need to copy and paste the following codes in `Terminal` every time:
 
 ```bash
 rm -rf public # delete the public folder
@@ -407,4 +407,4 @@ Again, I recommend you to read the [blogdown](https://bookdown.org/yihui/blogdow
 [^2]: I spent at least 150 hours on creating my own website using Hugo, for your reference. 
 [^3]: You only need to press the Enter key once, after you have pasted all the three lines of codees. 
 [^4]: If you have used a different name than lithium, you should go to that folder on your Desktop. 
-[^5]: When you type code by yourself, you should press the Enter key at the end of every line, since you can only type one line at time. When you copy and paste lines into Terminal, you should press Enter key at the end of the last line of code. I won't repeat "press the Enter key" in the following section, but you should bear in mind that you need to press it by yourself. 
+[^5]: When you type code by yourself, you should press the Enter key at the end of every line, since you can only type one line at time. When you copy and paste lines into `Terminal`, you should press Enter key at the end of the last line of code. I won't repeat "press the Enter key" in the following section, but you should bear in mind that you need to press it by yourself. 
